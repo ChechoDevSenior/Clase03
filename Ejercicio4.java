@@ -19,5 +19,6 @@ public class Ejercicio4 {
         var precio = precioInicial - precioFinal ;
         System.out.println("Carmen gasto en total "+precio+"€");
         //RTA Carmen se ha gastado 10,25€.
+        scanner.close();
     }
 }
