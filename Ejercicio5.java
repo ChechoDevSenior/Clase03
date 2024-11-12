@@ -17,6 +17,7 @@ public class Ejercicio5 {
         System.out.println("Por el pronto pago, tiene un descuento del 10% sobre le valor de compra.");
         var precioFinal = precioPC - (precioPC * 0.1);
         System.out.println("El precio final de su nuevo PC es de: "+precioFinal+"€");
-        //El precio final del nuevo PC es de 540€. 
+        //El precio final del nuevo PC es de 540€.
+        scanner.close();
     }
 }
