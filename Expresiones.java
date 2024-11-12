@@ -47,5 +47,6 @@ public class Expresiones {
 
         num12 %= 7; 
         System.out.println(num12);
+        
     }
 }
