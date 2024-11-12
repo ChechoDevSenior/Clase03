@@ -19,6 +19,7 @@ public class Ejercicio3 {
         var totalPeces = pecesAzules+pecesRojos;
         System.out.printf("La cantidad de peces que hay en el acuario es: %s peces",totalPeces);
         //En total en el acuario hay 447 peces. 
+        scanner.close();
 
     }
 }
