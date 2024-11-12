@@ -15,6 +15,7 @@ public class Ejercicio2 {
         var porcion100Gr = 5.95d;
         var precioFinal = cantidadProducto * (porcion100Gr*10d);
         System.out.println("El precio del kilo de "+producto+"es: "+precioFinal+"€.");
+        scanner.close();
     }
     /*
      RTA/ El valor del precio 29,75€ es incorrecto porque el valor real del precio del kilo de pernil es 59.5€
